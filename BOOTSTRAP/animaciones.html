@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animacion</title>
+    <style>
+      #caja1 {
+        position: relative;
+        top: 100px;
+        left: 30px;
+        width: 200px;
+        height: 100px;
+        background: rebeccapurple;
+        padding: 6px;
+        border-radius: 6px;
+        animation-name: animacion1;
+        -moz-animation-name: animacion1; /*Mozilla*/
+        -o-animation-name: animacion1; /*Opera*/
+        -ms-animation-name: animacion1; /*Explorer*/
+        -webkit-animation-name: animacion1; /*Chrome*/
+        animation-duration: 4s;
+        -moz-animation-duration: 4s; /*Mozilla*/
+        -o-animation-duration: 4s; /*Opera*/
+        -ms-animation-duration: 4s; /*Explorer*/
+        -webkit-animation-duration: 4s; /*Chrome*/
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes animacion1 {
+        0% {
+          left: 30px;
+          background: rebeccapurple;
+        }
+        50% {
+          left: 500px;
+          background: coral;
+        }
+        100% {
+          left: 30px;
+          background: rebeccapurple;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="caja1">
+      <span>😎</span>
+    </div>
+  </body>
+</html>

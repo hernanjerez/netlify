@@ -1,0 +1,101 @@
+.tomato {
+  background: tomato;
+}
+.rebecca {
+  background: rebeccapurple;
+}
+.icono {
+  font-size: 90px;
+}
+.footer {
+  background: ghostwhite;
+  height: 250px;
+}
+.header {
+  height: auto;
+  background-image: url(../IMAGES/manos.jpg);
+  background-size: cover;
+}
+.icono:hover {
+  transform: scale(1.5);
+  transition-duration: 400ms;
+}
+.frase-modal {
+  background-color: hotpink;
+  color: black;
+}
+.frase {
+  background: pink;
+  height: auto;
+  color: rgb(48, 30, 210);
+}
+.frase-texto {
+  color: deeppink;
+  font-size: 40px;
+}
+.frase-texto-mava {
+  color: primary;
+  font-size: 70px;
+}
+.footer {
+  background: darkslategray;
+  color: ghostwhite;
+}
+textarea {
+  resize: none;
+}
+.fondo-unicornio {
+  background-image: url("../IMAGES/fondo_manicuria.jpg");
+  background-size: cover;
+}
+.imagen-unas {
+  width: 280px;
+  height: auto;
+  border-radius: 5px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.imagen-unas:hover {
+  transform: scale(1.1) rotate(-50deg);
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+}
+.imagen {
+  width: 280px;
+  height: auto;
+  border-radius: 5px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.imagen:hover {
+  transform: scale(1.1) rotate(-5deg);
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.shadow {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: rgba(0, 0, 0, 0.9); /*Mozilla*/
+  -o-box-shadow: rgba(0, 0, 0, 0.9); /*Opera*/
+  -ms-box-shadow: rgba(0, 0, 0, 0.9); /*Explorer*/
+  -webkit-box-shadow: rgba(0, 0, 0, 0.9); /*Chrome*/
+}
+.cajaloca {
+  position: relative;
+  left: 0px;
+  animation-name: caja;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes caja {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+.texto-zona {
+  background-color: royalblue;
+  color: rgb(220, 200, 20);
+  font-size: 20px;
+}
